@@ -6,7 +6,6 @@ const VALIDATION_ERROR = 'ValidationError';
 const INCORRECT_ID_MESSAGE = 'Нет статьи с таким id';
 const REQUIRED_MESSAGE = (value) => `Поле ${value} должно быть заполнено`;
 const EMPTY_FIELD_MESSAGE = (value) => `Поле ${value} не должно быть пустым`;
-const INCORRECT_LENGTH_MESSAGE = (length, value, number) => `${length} длина поля ${value} в символах - ${number}`;
 
 module.exports = {
   BAD_REQUEST_ERROR_CODE,
@@ -17,5 +16,4 @@ module.exports = {
   INCORRECT_ID_MESSAGE,
   REQUIRED_MESSAGE,
   EMPTY_FIELD_MESSAGE,
-  INCORRECT_LENGTH_MESSAGE,
 };
